@@ -90,7 +90,7 @@ Note: Ensure the lambda function is having adequate permission to read from the 
 
 ### 5.Create the Merged API in AWS AppSync
 
-Navigate to the AWS AppSync and click create APi. Select the Merged APIs.
+Navigate to the AWS AppSync and click create API. Select the Merged APIs.
 
 <img width="621" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/9f11ba5e-5c1c-419f-9c58-69df17d02566">
 
@@ -98,7 +98,7 @@ Navigate to the AWS AppSync and click create APi. Select the Merged APIs.
 
 #### Provide the metadata for the Merged API
 
-<img width="619" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/7159b01a-837d-4d72-8ee0-56ab30c6eceb">
+<img width="621" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/1cd3a3ad-bf89-46be-abb7-2ed7db7e2ec4">
 
 
 
@@ -106,7 +106,7 @@ Navigate to the AWS AppSync and click create APi. Select the Merged APIs.
 
 #### Select the source APIs created in Step 1
 
-<img width="620" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/37a1953d-ceca-4853-8478-a179b5a83ca0">
+<img width="621" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/fa34cb55-a2bf-403b-b4bc-f65f5841d5f3">
 
 
 
@@ -114,7 +114,7 @@ Navigate to the AWS AppSync and click create APi. Select the Merged APIs.
 
 #### Select the authorization mechanism. The mechanism must be the same as in the source APIs
 
-<img width="622" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/577ad6c7-7700-480d-aa24-d995b4d361dd">
+<img width="621" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/601e76be-6cf5-4548-b922-d14a46175622">
 
 
 
@@ -122,7 +122,7 @@ Navigate to the AWS AppSync and click create APi. Select the Merged APIs.
 
 #### Verify the details and create the merged API
 
-<img width="622" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/a53fa210-8170-4e8f-8a9c-96ac7ded99bd">
+<img width="621" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/8956a380-a0c9-429d-8458-4eb80bdfd9bc">
 
 
 
@@ -130,7 +130,7 @@ Navigate to the AWS AppSync and click create APi. Select the Merged APIs.
 
 #### After creating the merged API, verify the source APIs are in “Merge success” status.
 
-<img width="625" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/c8255c3e-9638-43f3-be22-38da73f1df71">
+<img width="628" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/707d535c-080d-4231-a444-8961cdcbdbde">
 
 
 
@@ -140,7 +140,7 @@ Navigate to the AWS AppSync and click create APi. Select the Merged APIs.
 #### Update the CounterPartyRisk source API’s in the source API (Not in the merged API) schema with a reference to CounterParty API and save.
   
 
-<img width="619" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/97e4ac57-efd7-4718-890c-81d45230a228">
+<img width="626" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/133ca905-230f-4894-87e0-72bef5512e7d">
 
   
 
@@ -148,44 +148,44 @@ Navigate to the AWS AppSync and click create APi. Select the Merged APIs.
   
 
 
-<img width="619" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/2416f6a4-b106-4ff8-8d64-47f3542c15e3">
+<img width="623" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/ec297319-6007-4ae8-b769-05a47f3ba7a9">
 
   
 
 #### Click on the action dropdown to select the Update runtime. 
   
 
-<img width="612" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/f62a88c8-2988-4fad-82af-1b37f776df3a">
+<img width="619" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/2d27324b-aa37-420d-8517-54ae42841c9a">
    
    
  
 #### Choose the Unit Resolver VTL only  [Apache Velocity Template Language](https://docs.aws.amazon.com/appsync/latest/devguide/tutorials.html) . Refer to to the [VTL resolver documentation](https://docs.aws.amazon.com/appsync/latest/devguide/resolver-mapping-template-reference.html) for additional details. 
 
-<img width="605" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/c724e55a-cd3d-4108-91c7-77fc422d5466">
+<img width="625" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/1587eaf9-b6bc-41f4-9690-ffbfc11ce90c">
 
 
 
-#### Choose the Lambda created earlier in step ix as the data source for the resolver and click save resolver
+#### Choose the Lambda created in earlier step as the data source for the resolver and click save resolver
 
-<img width="607" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/d554ac8c-9692-4419-b394-acd1c5b5042f">
+<img width="616" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/795b7a08-3460-4869-b204-9df340eb338f">
 
 
 #### Verify the resolver is attached successfully
 
-<img width="626" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/c05ebaeb-d59d-4b51-adbc-bafdc59172aa">
+<img width="630" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/3e770591-c20b-4161-a7dc-bcc75d1e701e">
 
 
 
 #### Click Merge now button to merge the APIs from the settings options
 
-<img width="626" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/cf08d496-80b3-43e9-af9f-6a1e9fd0efdd">
+<img width="625" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/dc9e260d-5a16-4877-8406-708eaf28f428">
 
 
 
 #### Check that the merged API reflects the changes contained in the source API 
 
 
-<img width="626" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/05658ed2-7181-4b36-9357-f5076af40ae6">
+<img width="622" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/57223e0f-2a59-4a45-bcaf-1ef8c4f9b9d4">
 
 
 
@@ -197,7 +197,7 @@ Navigate to the AWS AppSync and click create APi. Select the Merged APIs.
 Query the Merged API with the CounterPartyRisk data and observe the results.  You should see the additional risk data in the CounterParty schema.  
 
 
-<img width="598" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/767fc90f-649b-40e1-8e44-b1f14dbd370e">
+<img width="619" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/1018a14f-aab3-4cf4-b902-e2f0b9fd31a2">
 
 
 #### b. Using Postman
