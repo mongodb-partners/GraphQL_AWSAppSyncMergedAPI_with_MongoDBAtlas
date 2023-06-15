@@ -61,7 +61,7 @@ Ensure the the APIs are created successfully
 
 ### 3.create the docker image and deploy to lambda
 
-Copy the Lambda code from the repository and create the docker image
+Copy the [python code](https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/blob/main/merged_api/datasource_mergedapi.py) for the mergedAPI Lambda from the repository and create the docker image
 
       aws ecr get-login-password --region <aws region> | docker login --username AWS --password-stdin <accountid>.dkr.ecr.<aws region>.amazonaws.com
       
