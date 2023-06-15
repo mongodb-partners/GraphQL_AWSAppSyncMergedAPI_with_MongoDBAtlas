@@ -33,7 +33,7 @@ Developer Tool: [VSCode](https://code.visualstudio.com/download), [AWS CLI](http
 
 ## Architecture
 
-<img width="1008" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/338ab5dc-8df9-46e0-9815-463fa53c3790">
+<img width="1011" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/bcc74eb4-2cf5-477d-8093-4cb888ba7191">
 
 
 
@@ -47,7 +47,8 @@ Follow the [GitHub repo](https://github.com/mongodb-partners/AppSync_Atlas_Integ
 
 Ensure the the APIs are created successfully
 
-<img width="618" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/ab00578a-5b22-45c5-8fd7-ffe13b78876b">
+<img width="624" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/970b017c-ff89-4a93-85aa-534f396b6b4a">
+
 
 
 ### 2. crerate a AWS Elastic Container Repository for merged api
@@ -91,7 +92,7 @@ Note: Ensure the lambda function is having adequate permission to read from the 
 
 Navigate to the AWS AppSync and click create APi. Select the Merged APIs.
 
-<img width="613" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/70b59f6a-4d83-45ae-b18e-86db8234967f">
+<img width="621" alt="image" src="https://github.com/mongodb-partners/GraphQL_AWSAppSyncMergedAPI_with_MongoDBAtlas/assets/101570105/9f11ba5e-5c1c-419f-9c58-69df17d02566">
 
 
 
