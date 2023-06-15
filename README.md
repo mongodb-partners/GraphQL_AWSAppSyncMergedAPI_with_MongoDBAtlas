@@ -1,13 +1,13 @@
 # GraphQL : AWS AppSync Merged API Integration with MongoDB Atlas
 
 ## Introduction
-When multiple teams are working for a project with microservices that are exposed through a single GraphQL API endpoint, it is important to ensure proper collaboration and isolation among the teams involved. Without effective measures in place, simultaneous work by different developer teams can inadvertently result in breaking the code and adds challenges for troubleshooting. For example, a change made by one team could unintentionally impact the functionality implemented by another team.  In this repository, we present you a reference architecture with MongoDB Atlas and AWS AppSync Merged API as solution to these challenges
+When multiple teams are working for a project with microservices that are exposed through a single [GraphQL](https://graphql.org/) API endpoint, it is important to ensure proper collaboration and isolation among the teams involved. Without effective measures in place, simultaneous work by different developer teams can inadvertently result in breaking the code and adds challenges for troubleshooting. For example, a change made by one team could unintentionally impact the functionality implemented by another team.  In this repository, we present you a reference architecture with MongoDB Atlas and AWS AppSync Merged API as solution to these challenges
 
 ## MongoDB Atlas
 
 [MongoDB Atlas](https://www.mongodb.com/atlas) is a modern Developer Data Platform with a fully managed cloud database at its core.  Atlas is the best way to run MongoDB, the leading non-relational database. It provides rich features like flexible schema model, native timeseries collections, geo-spatial data, multi level indexing, RBAC, isolated workloads and many more–all built on top of the MongoDB document model.  
 
-MongoDB Atlas App Services help developers build apps, integrate services, and connect to their data without operational overhead utilizing features like hosted Data API and GraphQL API.  Atlas Data API allows developers to easily integrate Atlas data into their cloud apps and services over HTTPS with a flexible API.  Atlas GraphQL API lets developers access Atlas data from any standard GraphQL client with an API that generates based on your data’s schema. 
+[MongoDB Atlas App Services](https://www.mongodb.com/atlas/app-services) help developers build apps, integrate services, and connect to their data without operational overhead utilizing features like hosted Data API and GraphQL API.  [Atlas Data API](https://www.mongodb.com/atlas/app-services/data-api) allows developers to easily integrate Atlas data into their cloud apps and services over HTTPS with a flexible API.  [Atlas GraphQL](https://www.mongodb.com/docs/atlas/app-services/graphql/) API lets developers access Atlas data from any standard GraphQL client with an API that generates based on your data’s schema. 
 
 
 ## AWS AppSync Merged API
